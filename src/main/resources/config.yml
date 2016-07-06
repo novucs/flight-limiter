@@ -1,0 +1,5 @@
+# The maximum height players are allowed to fly.
+max-height: 256
+
+# The message sent once players have flown above this height. Set to "" to not send a message.
+message: "&cYou are not allowed to fly above Y 256!"

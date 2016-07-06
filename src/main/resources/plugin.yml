@@ -1,0 +1,14 @@
+name: ${project.name}
+main: net.novucs.flightlimiter.FlightLimiterPlugin
+version: ${project.version}
+description: ${project.description}
+authors: [novucs]
+commands:
+  flimitreload:
+    description: Reloads the plugin settings
+    permission: flightlimiter.bypass
+    permission-message: "§cYou do not have permission."
+permissions:
+  flightlimiter.bypass:
+    default: op
+    description: Bypasses the flight limitation
